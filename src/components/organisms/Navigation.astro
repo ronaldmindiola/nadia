@@ -1,0 +1,17 @@
+---
+import Brand from "@components/atoms/Brand.astro";
+import ModeToggle from "@components/atoms/ModeToggle";
+import NavLinks from "@components/atoms/NavLinks.astro";
+---
+
+<nav class="flex justify-between items-center p-4 bg-background text-foreground border-b border-border">
+  <div class="flex items-center">
+    <Brand label="Brand" tagline="Solucion al alcance de ti." />
+  </div>
+  <div class="flex items-center gap-4">
+    <NavLinks />
+    <div class="ml-4">
+      <ModeToggle client:load />
+    </div>
+  </div>
+</nav>

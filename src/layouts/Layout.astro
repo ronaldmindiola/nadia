@@ -1,22 +1,31 @@
 ---
 import "../styles/global.css";
-import { ClientRouter } from "astro:transitions";
+
+interface Props {
+  pageTitle?: string; // Título específico para la página actual
+  pageDescription?: string; // Descripción específica para la página actual
+  className?: string; // Clases CSS adicionales para el body
+  lang?: string; // Idioma preferido para la página
+}
+
+const { pageTitle, pageDescription, className, lang } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang} class="antialiased">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
-    <meta
-      name="description"
-      content="A simple Astro project to demonstrate basic features."
-    />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
   </head>
-  <body>
-    <slot />
+  <body class={`min-h-screen bg-b ${className}`}>
+    <div
+      
+    >
+      <slot />
+    </div>
   </body>
 </html>

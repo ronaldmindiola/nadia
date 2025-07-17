@@ -1,0 +1,219 @@
+{
+  "project": {
+    "infoPage": {
+      "title": {
+        "es": "El Sabor Colombiano",
+        "en": "The Colombian Flavor"
+      },
+      "tagline": {
+        "es": "Comida Caribeña Colombiana",
+        "en": "Colombian Caribbean Cuisine"
+      },
+      "shortName": {
+        "es": "Sabor Colombiano",
+        "en": "Colombian Flavor"
+      },
+      "description": {
+        "es": "Restaurante especializado en comida caribeña colombiana, ubicado en Dibulla, La Guajira.",
+        "en": "Restaurant specialized in Colombian Caribbean cuisine, located in Dibulla, La Guajira."
+      },
+      "author": "Ronald Mindiola",
+      "version": "1.0.0",
+      "releaseDate": "2025-07-15",
+      "keywords": [
+        "restaurante",
+        "comida colombiana",
+        "caribeña",
+        "Dibulla",
+        "La Guajira",
+        "Gastronomía"
+      ]
+    },
+    "siteMetadata": {
+      "baseUrl": "https://www.elsaborcolombiano.com",
+      "defaultLocale": "es",
+      "locales": ["es", "en"],
+      "author": "Equipo de Desarrollo El Sabor Colombiano",
+      "publisher": "El Sabor Colombiano S.A.S.",
+      "ogImage": "https://www.elsaborcolombiano.com/assets/og-image.jpg",
+      "twitterHandle": "@SaborColombiano"
+    },
+    "contactInfo": {
+      "primaryEmail": "info@elsaborcolombiano.com",
+      "reservationsEmail": "reservas@elsaborcolombiano.com",
+      "phoneNumber": "+57 300 123 4567",
+      "whatsappNumber": "573001234567",
+      "address": {
+        "streetAddress": {
+          "es": "Calle 5 # 3-20",
+          "en": "5th Street # 3-20"
+        },
+        "city": {
+          "es": "Dibulla",
+          "en": "Dibulla"
+        },
+        "state": {
+          "es": "La Guajira",
+          "en": "La Guajira"
+        },
+        "zipCode": "446001",
+        "country": {
+          "es": "Colombia",
+          "en": "Colombia"
+        },
+        "plusCode": "C8FW+QC Dibulla, La Guajira"
+      },
+      "openingHours": [
+        {
+          "day": { "es": "Lunes", "en": "Monday" },
+          "hours": { "es": "Cerrado", "en": "Closed" }
+        },
+        {
+          "day": { "es": "Martes", "en": "Tuesday" },
+          "hours": "12:00 PM - 10:00 PM"
+        },
+        {
+          "day": { "es": "Miércoles", "en": "Wednesday" },
+          "hours": "12:00 PM - 10:00 PM"
+        },
+        {
+          "day": { "es": "Jueves", "en": "Thursday" },
+          "hours": "12:00 PM - 10:00 PM"
+        },
+        {
+          "day": { "es": "Viernes", "en": "Friday" },
+          "hours": "12:00 PM - 11:00 PM"
+        },
+        {
+          "day": { "es": "Sábado", "en": "Saturday" },
+          "hours": "12:00 PM - 11:00 PM"
+        },
+        {
+          "day": { "es": "Domingo", "en": "Sunday" },
+          "hours": "12:00 PM - 9:00 PM"
+        }
+      ]
+    },
+    "socialMedia": [
+      {
+        "id": "facebook",
+        "name": "Facebook",
+        "url": "https://facebook.com/elsaborcolombiano",
+        "iconClass": "fa-brands fa-facebook-f",
+        "ariaLabel": {
+          "es": "Síguenos en Facebook",
+          "en": "Follow us on Facebook"
+        }
+      },
+      {
+        "id": "instagram",
+        "name": "Instagram",
+        "url": "https://instagram.com/elsaborcolombiano",
+        "iconClass": "fa-brands fa-instagram",
+        "ariaLabel": {
+          "es": "Síguenos en Instagram",
+          "en": "Follow us on Instagram"
+        }
+      },
+      {
+        "id": "tiktok",
+        "name": "TikTok",
+        "url": "https://tiktok.com/@elsaborcolombiano",
+        "iconClass": "fa-brands fa-tiktok",
+        "ariaLabel": {
+          "es": "Síguenos en TikTok",
+          "en": "Follow us on TikTok"
+        }
+      },
+      {
+        "id": "tripadvisor",
+        "name": "TripAdvisor",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-gXXXXXX-dYYYYYY-Reviews-El_Sabor_Colombiano.html",
+        "iconClass": "fa-brands fa-tripadvisor",
+        "ariaLabel": {
+          "es": "Ver reseñas en TripAdvisor",
+          "en": "View reviews on TripAdvisor"
+        }
+      }
+    ],
+    "navigation": [
+      {
+        "items": [
+          {
+            "id": "home",
+            "label": {
+              "es": "Inicio",
+              "en": "Home"
+            },
+            "url": "/",
+            "iconClass": "fa-solid fa-home",
+            "order": 1
+          },
+          {
+            "id": "menu",
+            "label": {
+              "es": "Menú",
+              "en": "Menu"
+            },
+            "url": "/menu",
+            "iconClass": "fa-solid fa-utensils",
+            "order": 2
+          },
+          {
+            "id": "reservations",
+            "label": {
+              "es": "Reservas",
+              "en": "Reservations"
+            },
+            "url": "/reservas",
+            "iconClass": "fa-solid fa-calendar-alt",
+            "order": 3
+          },
+          {
+            "id": "about",
+            "label": {
+              "es": "Acerca de Nosotros",
+              "en": "About Us"
+            },
+            "url": "/nosotros",
+            "iconClass": "fa-solid fa-info-circle",
+            "order": 4
+          },
+          {
+            "id": "contact",
+            "label": {
+              "es": "Contacto",
+              "en": "Contact",
+              "fr": "Contactez-nous"
+            },
+            "url": "/contacto",
+            "iconClass": "fa-solid fa-envelope",
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "footer-nav",
+        "type": "secondary",
+        "items": [
+          {
+            "id": "privacy-policy",
+            "label": {
+              "es": "Política de Privacidad",
+              "en": "Privacy Policy"
+            },
+            "url": "/politica-privacidad"
+          },
+          {
+            "id": "terms-of-service",
+            "label": {
+              "es": "Términos de Servicio",
+              "en": "Terms of Service"
+            },
+            "url": "/terminos-servicio"
+          }
+        ]
+      }
+    ]
+  }
+}
